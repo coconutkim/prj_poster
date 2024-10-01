@@ -26,3 +26,4 @@ conda create --name prj_poster python=3.11
 
 opencv 고급 버전 설치
 pip install opencv-contrib-python
+
