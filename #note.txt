@@ -1,0 +1,28 @@
+pip install pandas numpy opencv-contrib-python matplotlib seaborn beautifulsoup4 requests scikit-learn tensorflow selenium scikit-image kaggle gdown
+
+데이터프레임을 csv 파일로 저장
+csv_filename = 'grouped_data3.csv'
+df.to_csv(csv_filename, index=False)
+
+여러 라이브러리 버전 한번에 확인
+pip freeze
+
+가상환경 파이썬 버전 변경
+conda install python=3.7
+
+csv 파일 불러오기
+import pandas as pd
+df=pd.read_csv('./grouped_data3.csv')
+df
+
+아나콘다 가상환경 이름 변경
+conda create --name (새로운 가상 환경 이름) --clone (기존의 가상 환경 이름)
+
+아나콘다 가상환경 삭제
+conda remove --name [가상환경명] --all
+
+아나콘다 가상환경 생성
+conda create --name prj_poster python=3.11
+
+opencv 고급 버전 설치
+pip install opencv-contrib-python
