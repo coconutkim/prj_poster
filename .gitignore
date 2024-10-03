@@ -1,3 +1,4 @@
 ./yolov3.weights
 /home/acy/venv/source/prj_poster/yolov3.weights
 *.weights
+vae_faces.ipynb
