@@ -1,5 +1,8 @@
 pip install pandas numpy opencv-contrib-python matplotlib seaborn beautifulsoup4 requests scikit-learn tensorflow selenium scikit-image kaggle gdown
 
+패키지 설치하는데 권한 문제 발생시 우회 방법
+pip install --user easyocr
+
 데이터프레임을 csv 파일로 저장
 csv_filename = 'grouped_data3.csv'
 df.to_csv(csv_filename, index=False)
@@ -26,4 +29,3 @@ conda create --name prj_poster python=3.11
 
 opencv 고급 버전 설치
 pip install opencv-contrib-python
-
