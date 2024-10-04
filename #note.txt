@@ -1,5 +1,8 @@
 pip install pandas numpy opencv-contrib-python matplotlib seaborn beautifulsoup4 requests scikit-learn tensorflow selenium scikit-image kaggle gdown
 
+포스터 이미지 데이터 경로
+G:\내 드라이브\project_poster\x_train
+
 패키지 설치하는데 권한 문제 발생시 우회 방법
 pip install --user easyocr
 
