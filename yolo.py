@@ -52,7 +52,7 @@ for i in range(len(res)):			# 검출된 물체를 영상에 표시
     cv.rectangle(img,(x1,y1),(x2,y2),colors[id],2)
     cv.putText(img,text,(x1,y1+30),cv.FONT_HERSHEY_PLAIN,1.5,colors[id],2)
 
-plt.imshow(img)
+# plt.imshow(img)
 
-# cv.waitKey()
-# cv.destroyAllWindows()
+cv.waitKey()
+cv.destroyAllWindows()
